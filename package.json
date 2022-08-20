@@ -1,0 +1,27 @@
+{
+  "name": "vieiro-grow",
+  "version": "1.0.0",
+  "description": "Grow challenge by Juan Vieiro",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Growmies/node-exercise.git"
+  },
+  "author": "Juan Vieiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Growmies/node-exercise/issues"
+  },
+  "homepage": "https://github.com/Growmies/node-exercise#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "jest": "^28.1.3",
+    "nodemon": "^2.0.19"
+  }
+}
